@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Вера Стукаленко](https://up.htmlacademy.ru/htmlcss/26/user/1168627).
-* Наставник: [Мария Наг] (https://htmlacademy.ru/profile/id47061).
+* Наставник: [Мария Наг](https://htmlacademy.ru/profile/id47061).
 
 ---
 
