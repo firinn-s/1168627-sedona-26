@@ -10,12 +10,10 @@
   <!--Хедер повторяется на всех страницах-->
   <header>
     <nav>
-      <h1>
-        <a href="index.html">
-          <img src="img/svg/logo-sedona.svg" width="140" height="71" alt="Логотип Седона">
-          Седона
-        </a>
-      </h1>
+      <h1 class="visually hidden">Седона</h1>
+      <a href="index.html">
+        <img src="img/svg/logo-sedona.svg" width="140" height="71" alt="Логотип Седона.">
+      </a>
       <ul>
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
@@ -26,41 +24,58 @@
   </header>
   <main>
     <section>
-      <h2>Фильтр гостиниц</h2>
-      <h3>Инфраструктура</h3>
-      <ul>
-        <li>
-          <!--чекбокс-->
-          <p>Бассейн</p>
-        </li>
-        <li>
-          <!--чекбокс-->
-          <p>Парковка</p>
-        </li>
-        <li>
-          <!--чекбокс-->
-          <p>Wi-Fi</p>
-        </li>
-      </ul>
-      <h3>Тип жилья</h3>
-      <ul>
-        <li>
-          <!--чекбокс-->
-          <p>Гостиница</p>
-        </li>
-        <li>
-          <!--чекбокс-->
-          <p>Мотель</p>
-        </li>
-        <li>
-          <!--чекбокс-->
-          <p>Апартаменты</p>
-        </li>
-      </ul>
-      <div>
-        <h3>Стоимость в сутки (р)</h3>
-        <button type="submit">Показать</button>
-      </div>
+      <form>
+        <h2 class="visually hidden">Фильтр гостиниц</h2>
+        <fieldset>
+          <legend>
+            <h3>Инфраструктура</h3>
+          </legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="pool" id="pool-field" checked>
+              <label for="pool-field">Бассейн</label>
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="parking-field">
+              <label for="parking-field">Парковка</label>
+            </li>
+            <li>
+              <input type="checkbox" name="wifi" id="wifi-field">
+              <label for="wifi-field">Wi-Fi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <h3>Тип жилья</h3>
+          </legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="hotel-field" checked>
+              <label for="hotel-field">Гостиница</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="motel-field" checked>
+              <label for="motel-field">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="apartments" id="apartments-field" checked>
+              <label for="apartments-field">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <div>
+          <fieldset>
+            <legend>
+              <h3>Стоимость в сутки (р)</h3>
+            </legend>
+            <button type="button">От 0</button>
+            <button type="button">До 3000</button>
+            <!--здесь будет бегунок-->
+          </fieldset>
+          <button type="submit">Показать</button>
+        </div>
+      </form>
     </section>
     <section>
       <h2>Найдено: 3</h2>
@@ -78,7 +93,7 @@
       </ul>
       <ul>
         <li>
-          <img src="img/hotels/amara-resort-spa.jpg" width="135" height="90" alt="Общий вид Amara resort & spa">
+          <img src="img/hotels/amara-resort-spa.jpg" width="135" height="90" alt="Общий вид Amara resort & spa.">
           <h3>Amara resort & spa</h3>
           <p>Гостиница</p>
           <p>От 4000 ₽</p>
@@ -87,7 +102,7 @@
           <p>Рейтинг: 8,5</p>
         </li>
         <li>
-          <img src="img/hotels/desert-quail-inn.jpg" width="135" height="90" alt="Общий вид Desert quail inn">
+          <img src="img/hotels/desert-quail-inn.jpg" width="135" height="90" alt="Общий вид Desert quail inn.">
           <h3>Desert quail inn</h3>
           <p>Мотель</p>
           <p>От 3000 ₽</p>
@@ -96,7 +111,8 @@
           <p>Рейтинг: 8,9</p>
         </li>
         <li>
-          <img src="img/hotels/villas-at-poco-diablo.jpg" width="135" height="90" alt="Общий вид Villas at poco diablo">
+          <img src="img/hotels/villas-at-poco-diablo.jpg" width="135" height="90"
+            alt="Общий вид Villas at poco diablo.">
           <h3>Villas at poco diablo</h3>
           <p>Апартаменты</p>
           <p>От 2000 ₽</p>
@@ -111,12 +127,13 @@
   <footer>
     <p>#VISITSEDONA</p>
     <ul>
-      <li><a href="#"><img src="img/svg/twitter-icon.svg" width="17" height="15" alt="Твиттер"></a></li>
-      <li><a href="#"><img src="img/svg/fb-icon.svg" width="17" height="15" alt="Фейсбук"></a></li>
-      <li><a href="#"><img src="img/svg/youtube-icon.svg" width="17" height="15" alt="Youtube"></a></li>
+      <li><a href="#"><img src="img/svg/twitter-icon.svg" width="17" height="15" alt="Твиттер."></a></li>
+      <li><a href="#"><img src="img/svg/fb-icon.svg" width="17" height="15" alt="Фейсбук."></a></li>
+      <li><a href="#"><img src="img/svg/youtube-icon.svg" width="17" height="15" alt="Youtube."></a></li>
     </ul>
     <p>Website by</p><a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"><img
-        src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy"></a>
+        src="img/svg/logo-htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy."></a>
   </footer>
 </body>
+
 </html>
