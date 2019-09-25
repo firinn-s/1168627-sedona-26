@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+
+}
+
+.site-navigation,
+.feature-item,
+.footer-social,
+.hotels-list {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.features-title,
+.features-subtitle,
+.feature-item {
+  text-align: center;
+}
+
+.features-title,
+.footer-text {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.feature-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.feature-item p,
+.features-subtitle {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-item h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.hotel-item p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-item a {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.hotel-item button {
+  font: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+.booking {
+text-align: center;
+}
+
+.booking-form {
+  display: none;
+}
+
+.booking-title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.booking-subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.main-index {
+  background-color: #ffffff;
+  background-image: url("img/intro-sedona-mountains.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main-footer {
+  color: #000000;
+
+  background-color: rgb(255, 255, 255, 0.9);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
