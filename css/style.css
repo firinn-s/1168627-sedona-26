@@ -5,7 +5,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
 }
@@ -17,10 +17,10 @@ a {
 .site-navigation {
   font-size: 14px;
   line-height: 26px;
+  font-weight: 700;
   color: #000000;
 
   background-color: #ffffff;
-
 }
 
 .site-navigation,
@@ -39,6 +39,10 @@ a {
   color: #81b3d2;
 }
 
+.site-navigation a:active {
+  color: #cacaca;
+}
+
 .features-title,
 .features-subtitle,
 .feature-item {
@@ -49,6 +53,7 @@ a {
 .footer-text {
   font-size: 21px;
   line-height: 26px;
+  font-weight: 700;
 }
 
 .feature-item h3 {
@@ -94,7 +99,7 @@ a {
 }
 
 .booking {
-text-align: center;
+  text-align: center;
 }
 
 .booking-form {
@@ -102,6 +107,7 @@ text-align: center;
 }
 
 .booking-title {
+  font-weight: 700;
   text-align: center;
   font-size: 30px;
   line-height: 36px;
@@ -114,9 +120,9 @@ text-align: center;
   color: #333333;
 }
 
-.main-index {
+.main-container {
   background-color: #ffffff;
-  background-image: url("img/intro-sedona-mountains.jpg");
+  background-image: url("/img/index/intro-sedona-mountains.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -124,7 +130,7 @@ text-align: center;
 .main-footer {
   color: #000000;
 
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: hsla(0, 0%, 100%, 0.9);
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -134,4 +140,3 @@ text-align: center;
   line-height: 26px;
   font-weight: 400;
 }
-
